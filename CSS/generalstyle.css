@@ -1,0 +1,275 @@
+/* Rachel Kegge */
+
+
+.card{
+	background-color:#222f36;
+   	margin-top: 30px;
+   	color: #80D4FE;
+}
+
+#rateAndReview{
+	grid-column: 1 / span 2;
+}
+
+/* .card p{
+	margin: 10px;
+	padding: 10px;
+} */
+
+h1#welcome{
+	font-family: 'fonty';
+	color: black;
+	font-size: 46px;
+	line-height: 1.7;
+	word-spacing: 0.2em;
+	text-align: center;
+	color: #DFF9FE;
+}
+
+form#editArt{
+	width: 0px;
+}
+
+input#editArt{
+	text-align: center;
+}
+
+main#home.card h2{
+	padding-top: 10px;
+	color: #FEAF39;
+}
+
+main#home.card h3{
+	text-align: center;
+}
+
+main#home.card h5{
+	text-align: center;
+}
+
+main#home.card img{
+	width: 50%;
+	grid-column: 1/2;
+	grid-row: 1;
+
+	padding: 40px;
+}
+
+/* .card div.info{
+	grid-column: 2/2;
+	grid-row: 1;
+}
+
+.card div.desc{
+	grid-column: 1/-1;
+	grid-row: 2;
+	padding-left: 50px;
+	padding-right: 50px;
+} */
+
+#link{
+	text-align: center;
+	color: white;
+	margin-left:43%;
+}
+#link:hover{
+	text-align: center;
+	color: #516c82;
+	
+}
+
+/*embedding font face*/
+body{
+	background-color: #31434C;
+}
+
+@font-face{
+	font-family: 'fonty';
+	src: url('../fonts(2)/Font-files/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: 'evo';
+	src: url('../fonts(2)/Font-files/Evogria.otf');
+}
+
+@font-face{
+	font-family: 'teko';
+	src: url('../fonts(2)/Font-files/Raleway-Thin.ttf');
+}
+
+div#splash{
+	color: #DFF9FE;
+}
+
+
+img#mainLog{
+	width: 500px;
+	align-items: center;
+	text-align: center;
+	align-self: center;
+}
+
+
+h1#title{
+	font-family: teko;
+	font-size: 3.5em;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	letter-spacing: 0.06em;
+	color: #FEAF39;
+}
+
+h3#AM{
+	font-family: 'fonty';
+	color: black;
+	font-size: 36px;
+	line-height: 1.7;
+	word-spacing: 0.2em;
+	text-align: center;
+	color: #DFF9FE;
+}
+
+p#ind{
+	font-family: 'fonty';
+	color: black;
+	font-size: 32px;
+	line-height: 1.7;
+	word-spacing: 0.2em;
+	text-align: center;
+	color: #DFF9FE;
+}
+
+body{
+	font-family: 'fonty';
+	color: black;
+	font-size: 24px;
+	line-height: 1.7;
+	word-spacing: 0.2em;
+}
+
+h1#title{
+	text-align: center;
+}
+
+/* styling the nav bar*/
+nav{
+	display: flex;
+	height: 100px;
+	font-size: 20px;
+}
+
+nav>ul{
+	padding-left: 0px;
+	display: flex;
+	flex: 1;
+	width: 100%;
+	justify-content: center
+}
+
+nav>ul>li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+nav>ul>li>a:link{
+	font-family: evo;
+	font-size: 1.5em;
+	color:  #80D4FE;
+	text-decoration: none;
+}
+
+nav>ul>li>a:visited{
+	font-family: evo;
+	font-size: 1.5em;
+	color: #80D4FE;
+	text-decoration: none;
+}
+
+nav>ul>li>a:hover{
+	font-family: evo;
+	font-size: 1.5em;
+	color: #FECB91;
+	text-decoration: none;
+}
+
+a.active { /*show show navigation context*/
+	text-shadow: 4px 4px 0px #6581b5;
+}
+
+a.active:hover { /*show show navigation context*/
+	font-family: evo;
+	font-size: 1.5em;
+	color: #80D4FE;
+}
+
+/*footer styling*/
+footer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 20px;
+	color: grey;
+}
+
+/*media querie for the text*/
+@media (max-width: 1000px){
+	main{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 600px){
+	main{
+		font-size: 18px;
+	}
+}
+
+/*media querie for the nav bar*/
+@media (max-width: 1250px){
+	nav{
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1250px){
+	nav{
+		font-size: 12px;
+	}
+	h1#title{
+		font-size: 60px;
+	}
+	nav>ul span{
+		display: none;
+	}
+}
+
+/*displaying the nave bar in grid format with media query*/
+@media (max-width: 550px){
+	nav{
+		font-size: 12px;
+	}
+	h1#title{
+		font-size: 60px;
+	}
+	nav>ul{
+		display: grid;
+		grid-template-rows: 40px 40px;
+		grid-template-columns: 180px 180px;
+	}
+}
+
+@media (max-width: 360px){
+	nav{
+		font-size: 10px;
+	}
+	h1#title{
+		font-size: 60px;
+	}
+	nav>ul{
+		display: grid;
+		grid-template-rows: 40px 40px;
+		grid-template-columns: 160px 160px;
+	}
+}

@@ -1,0 +1,174 @@
+/* Rachel Kegge */
+
+/*general styling*/
+
+h2{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #FE9539;
+}
+
+div#indImg{
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;
+}
+
+div#splash{
+	color: #DFF9FE;
+/*	background-color: #feaf39;*/
+	display: flex;
+/*	grid-template-rows: 1fr;*/
+	z-index: 10;
+	background-color: #feaf39;
+	width: 100%;
+	top: 50;
+	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*main#splash{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 600px;
+}*/
+
+div#ind{
+	padding-left: 90px;
+	padding-right: 150px;
+	font-size: 50px;
+}
+
+div#indImg>img{
+	width: 500px;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	padding-left: 120px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+
+div#log{
+	align-items: center;
+	padding-left: 33%;
+	align-self: center;
+	align-content: center;
+}
+
+
+/*img{
+	width: 1100px;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+*/
+div{
+	align-content: center;
+	align-items: center;
+}
+
+p{
+	padding: 20px;
+}
+
+
+
+
+
+body{
+	overflow-x: hidden;
+}
+
+
+/* PARALLAX */
+
+#parallax{
+/*	background-color: #DFF9FE;*/
+/*	background-color: #feaf39;*/
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1050px;
+}
+
+#parallax img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+
+}
+
+/*#parallax img#r{
+	top: -190;
+	left: -190;
+}
+*/
+#parallax img#rr{
+	width: 20%;
+	top: -490px;
+/*	margin-bottom: 0px;*/
+}
+
+#parallax img#bb{
+	width: 20%;
+	top: -390px;
+	left: 1800px;
+	right: 0px;
+	z-index: -1;
+}
+
+#parallax img#w{
+	top: -590px;
+}
+#parallax img#k{
+	top: -490px;
+	left: -190px;
+	right: 0px;
+}
+#parallax img#b{
+	width: 25%;
+	top: -190px;
+	left: 1190px;
+}
+
+
+
+
+
+/*media queries*/
+
+@media (max-width: 2200px){
+	#parallax{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 1000px;
+	}
+}
+
+@media (max-width: 2000px){
+	#parallax{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 900px;
+	}
+}
+
+@media (max-width: 1500px){
+	#parallax{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 500px;
+	}
+}

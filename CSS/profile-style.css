@@ -1,0 +1,114 @@
+#ListDescInput {
+    height: 200px;
+}
+
+div#personalInfo{
+    background-color: #74828a;
+    border: solid 0px #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+
+    text-align: center;
+
+}
+
+div#Lists{
+    overflow: auto;
+}
+
+#friendList{
+    background-color: #566973;
+    border: solid 0px #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+#Lists{
+    background-color: #566973;
+    border: solid 0px #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+
+#listCreation{
+    background-color: #44555e;
+    border: solid 0px #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+
+#listCreation input{
+    width: 400px;
+    background-color:#6a777d;
+}
+
+#listCreation input:hover{
+    width: 400px;
+    background-color:#94a0a6;
+}
+
+/* select#Genre{
+    width: 500px;
+} */
+
+input {
+    background-color: #3e5763;
+    border: solid 0px #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 56px;
+    padding-left: 56px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    width: 220px;
+    margin: 12px;
+    margin-bottom: 15px;
+}
+
+input:hover {
+    background-color:#94a0a6;
+}
+
+
+
+
+div#lists{
+    background-color:#808f96;
+    border: solid 0px #FFFFFF;
+    padding-right: 36px;
+    padding-left: 36px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin: 15px;
+    width: 20%;
+    
+}
+
+div#listsWrap{
+    display: flex;
+}

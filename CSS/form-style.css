@@ -1,0 +1,236 @@
+label {
+   font-size:28px;
+   color: #b8d0de;
+   font-weight:normal;
+   padding-top:0px;
+   padding-bottom:0px;
+}
+
+#new{
+   color: #b8d0de;
+}
+
+a{
+   color: #b8d0de;
+}
+
+a:hover {
+   color: #fab45f;
+}
+
+h2{
+   padding: 0px;
+   padding-top: 30px;
+}
+
+.login_cont{
+   background-color:#222f36;
+   border:solid 0px #FFFFFF;
+   margin-left: 20%;
+   margin-right: 20%;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+   display: flex;
+}
+
+#stack{
+   padding-left: 200px;
+}
+
+#formL{
+   padding-left: 200px;
+   padding-right: 150px;
+}
+
+
+
+.sign-up-form{
+   background-color:#74828a;
+   border:solid 0px #FFFFFF;
+   margin-left: 20%;
+   margin-right: 20%;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+}
+
+.article-form{
+   /* background-color:#74828a; */
+   background-color: rgba(116,130,138, 0.5);
+   border:solid 0px #FFFFFF;
+   margin-left: 20%;
+   margin-right: 20%;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+   
+}
+
+
+.article-form input{
+   width: 50%;
+}
+
+.article-form div{
+   padding-top: 20px;
+}
+
+input#Description{
+   width: 50%;
+   height: 150px;
+}
+
+input#Blurb{
+   width: 50%;
+   height: 80px;
+}
+
+
+input#submit {
+   background-color:#3e5763;
+   border:solid 0px #FFFFFF;
+   font-size:16px;
+   color:#FFFFFF;
+   font-weight:normal;
+   padding-top:12px;
+   padding-bottom:12px;
+   padding-right:56px;
+   padding-left:56px;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+}
+
+#formFileLg{
+   padding-left: 300px;
+}
+
+button {
+   background-color:#3e5763;
+   border:solid 0px #FFFFFF;
+   font-size:16px;
+   color:#FFFFFF;
+   font-weight:normal;
+   padding-top:12px;
+   padding-bottom:12px;
+   padding-right:56px;
+   padding-left:56px;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+button:hover {
+   background-color:#94a0a6;
+}
+
+#submit {
+   margin-top:8px;
+   margin-bottom:0px;
+}
+
+#submit:hover {
+   background-color:#94a0a6;
+}
+
+input.style {
+   background-color:#cadbe3;
+   border:solid 0px #FFFFFF;
+   font-size:16px;
+   color:black;
+   font-weight:normal;
+   padding-top:12px;
+   padding-bottom:12px;
+   padding-right:16px;
+   padding-left:16px;
+   margin-top: 10px;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+}
+
+
+form#rateAndReview{ 
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+#rateAndReview input{
+   width: 600px;
+   background-color:#cadbe3;
+   border:solid 0px #FFFFFF;
+   font-size:16px;
+   color:black;
+   font-weight:normal;
+   padding-top:12px;
+   padding-bottom:12px;
+   padding-right:16px;
+   padding-left:16px;
+   margin-top: 10px;
+   -moz-border-radius:12px;
+   -webkit-border-radius:12px;
+   border-radius:12px;
+}
+
+#rateAndReviewsub{
+   margin: 0%;
+}
+
+#rateAndReviewsub:hover{
+   background-color:#3e5763;
+   color:#FFFFFF;
+}
+
+
+select {
+   width: 40%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   background-color: #fff;
+   color: #333;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+#picInput{
+   text-align: center;
+}
+
+#picInput input{
+   margin-left: 25%;
+}
+
+select#Genre{
+   width: 50%;
+   background-color: #cadbe3;
+   border: solid 0px #FFFFFF;
+   font-size: 16px;
+   color: black;
+   font-weight: normal;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-right: 16px;
+   padding-left: 16px;
+   margin-top: 10px;
+   -moz-border-radius: 12px;
+   -webkit-border-radius: 12px;
+   border-radius: 12px;
+}
+
+
+div#searchArticles{
+   width: 80%;
+   text-align: center;
+   margin-left: 10%;
+}
+
+form#searchArticles{
+   width: 80%;
+   margin-left: 10%;
+}
+

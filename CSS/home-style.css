@@ -1,0 +1,105 @@
+#searchArticles{
+    background-color: #566973;
+    border: solid 0px #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+div#localOrGlobal{
+    width: 80%;
+    margin-left: 10%;
+
+    margin-top: 10px;
+
+    background-color: #566973;
+    border: solid 0px #FFFFFF;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+div#localOrGlobal input {
+    background-color: #3e5763;
+    border: solid 0px #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 56px;
+    padding-left: 56px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    width: 220px;
+    margin: 12px;
+    margin-bottom: 35px;
+}
+
+div#localOrGlobal input:hover {
+    background-color:#94a0a6;
+}
+
+form#editArt{
+    text-align: center;
+}
+
+input#editArt {
+    background-color: #3e5763;
+    border: solid 0px #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 56px;
+    padding-left: 56px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    width: 220px;
+    margin: 12px;
+    margin-bottom: 35px;
+
+    margin-left: 80%;
+
+}
+
+input#deleteArt {
+    background-color: #3e5763;
+    border: solid 0px #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 56px;
+    padding-left: 56px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    width: 220px;
+    margin: 12px;
+    margin-bottom: 35px;
+
+    margin-left: 80%;
+
+}
+
+input#deleteArt:hover {
+    background-color:#94a0a6;
+}
+
+input#editArt:hover {
+    background-color:#94a0a6;
+}
+
+img{
+    width: 20%;
+}
